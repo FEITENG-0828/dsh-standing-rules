@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "常驻规则",
+    "description": "把 AGENTS.md 的规则附加到每条用户消息上，作为提醒。"
+  }
+}

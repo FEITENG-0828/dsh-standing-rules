@@ -1,0 +1,45 @@
+{
+  "name": "dsh-standing-rules",
+  "version": "1.0.0",
+  "description": "Appends the rules from AGENTS.md to every incoming user message as a reminder.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "agents-md",
+    "rules",
+    "reminder"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-home-paths": ">=0.2.0-rc.2 || >=0.2.1-rc.2",
+    "@deepseek-ai/dsh-llm": ">=0.2.0-rc.2 || >=0.2.1-rc.2",
+    "@deepseek-ai/schemastery": "^3.18.2"
+  }
+}

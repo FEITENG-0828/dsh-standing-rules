@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Standing Rules",
+    "description": "Appends the rules from AGENTS.md to every incoming user message as a reminder."
+  }
+}
