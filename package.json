@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "Appends the rules from AGENTS.md to every incoming user message as a reminder.",
   "license": "MIT",
+  "author": "feiteng",
+  "homepage": "https://github.com/FEITENG-0828/dsh-standing-rules",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEITENG-0828/dsh-standing-rules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FEITENG-0828/dsh-standing-rules/issues"
+  },
   "type": "module",
   "exports": {
     ".": "./index.js",
